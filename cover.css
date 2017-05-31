@@ -13,10 +13,8 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #464951;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
 }
 
 
@@ -26,13 +24,20 @@ a:hover {
 
 html,
 body {
+  margin: 0;
+  background: url('backgroundImage.JPG');
   height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
   background-color: #333;
 }
 body {
   color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-align: left;
+ 
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -117,6 +122,23 @@ body {
   font-weight: bold;
 }
 
+.inner-cover {
+    color: #464951;
+}
+
+.cover-heading {
+  font-size: 72px;
+}
+
+.lead {
+  font-size: 32px;
+}
+
+.navbar-main {
+  font-size: 24px;
+  color: #464951;
+  text-align: left;
+}
 
 /*
  * Footer
